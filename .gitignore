@@ -1,0 +1,18 @@
+# Данные не храним в git: они большие и их можно скачать с Kaggle
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
